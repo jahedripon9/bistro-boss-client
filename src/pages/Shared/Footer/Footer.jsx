@@ -24,7 +24,7 @@ const Footer = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div class="p-4 lg:w-1/2   md:w-full">
+                            <div class="p-4 lg:w-1/2   md:w-full  bg-slate-400">
                                 <div class="flex  border-opacity-50 p-8 sm:flex-row flex-col">
                                     <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center  flex-shrink-0">
                                         
