@@ -1,5 +1,6 @@
 import Banner from "../Banner/Banner";
 import Catagory from "../Catagory/Catagory";
+import PhotoPoster from "../PhotoPoster/PhotoPoster";
 
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
         <div>
             <Banner />
             <Catagory />
+            <PhotoPoster />
         </div>
     );
 };
