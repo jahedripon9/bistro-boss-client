@@ -4,11 +4,11 @@ const Footer = () => {
     const today = new Date();
     const year = today.getFullYear();
     return (
-        <div>
-            <footer className="text-gray-600 body-font">
-                <div class="text-gray-600 body-font">
-                    <div class="container px-5 py-4 mx-auto flex flex-wrap">
-                        <div class="flex flex-wrap w-full -m-4 ">
+        <div className='max-w-screen-xl mx-auto'>
+            <footer className="text-gray-600 body-font ">
+                <div class="text-gray-600 body-font ">
+                    <div class="container  py-4  flex flex-wrap">
+                        <div class="flex flex-wrap w-full -m-4  mx-auto">
                             <div class="p-4 lg:w-1/2 md:w-full bg-slate-800">
                                 <div class="flex  p-8 sm:flex-row flex-col">
                                     <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center  text-indigo-500 flex-shrink-0 ">
