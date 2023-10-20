@@ -37,23 +37,23 @@ const Catagory = () => {
             >
                 <SwiperSlide >
                     <img src={slide1} alt="" />
-                    <h3 className='text-4xl uppercase text-center -mt-16 text-white'>Salad</h3>
+                    <h3 className='md:text-4xl text-sm bg-slate-200 uppercase text-center -mt-16 text-white'>Salad</h3>
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src={slide2} alt="" />
-                    <h3 className='text-4xl uppercase text-center -mt-16 text-white'>Pizzas</h3>
+                    <h3 className='md:text-4xl text-sm uppercase text-center -mt-16 text-white'>Pizzas</h3>
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src={slide3} alt="" />
-                    <h3 className='text-4xl uppercase text-center -mt-16 text-white'>Soups</h3>
+                    <h3 className='md:text-4xl text-sm uppercase text-center -mt-16 text-white'>Soups</h3>
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src={slide4} alt="" />
-                    <h3 className='text-4xl uppercase text-center -mt-16 text-white'>desserts</h3>
+                    <h3 className='md:text-4xl text-sm uppercase text-center -mt-16 text-white'>desserts</h3>
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src={slide5} alt="" />
-                    <h3 className='text-4xl uppercase text-center -mt-16 text-white'>Salad</h3>
+                    <h3 className='md:text-4xl text-sm uppercase text-center -mt-16 text-white'>Salad</h3>
                 </SwiperSlide>
 
 
