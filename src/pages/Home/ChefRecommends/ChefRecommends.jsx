@@ -2,7 +2,7 @@ import SectionTitle from '../../../Components/SectionTitle/SectionTitle';
 import img1 from '../../../assets/menu/salad-bg.jpg'
 const ChefRecommends = () => {
     return (
-        <div className=''>
+        <div className='md:mx-20'>
             <div>
                 <SectionTitle
                     heading="CHEF RECOMMENDS"
