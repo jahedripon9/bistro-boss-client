@@ -12,7 +12,7 @@ import  './Bannar.css'
 
 const Banner = () => {
     return (
-        <Carousel className="Bannar max-w-screen-xl">
+        <Carousel className="Bannar max-w-screen-xl ">
             <div>
                 <img src={img1} />  
             </div>

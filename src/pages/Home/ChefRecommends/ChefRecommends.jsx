@@ -11,44 +11,36 @@ const ChefRecommends = () => {
 
                 </SectionTitle>
             </div>
-            <div className='flex gap-2 my-10 '>
-                <div className=" card w-4/12 bg-base-300 shadow-xl mx-auto">
-                    <figure className="px-10 pt-10">
-                        <img src={img1} alt="Shoes" className="rounded-xl " />
-                    </figure>
-                    <div className="card-body items-center text-center">
-                        <h2 className="card-title">Caeser Salad</h2>
-                        <p>Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.</p>
-                        <div className="card-actions">
-                            <button className="btn btn-outline text-white border-0 border-b-4">Add to Cart</button>
+            <section class="text-gray-600 body-font">
+                <div class="container px-5 py-24 mx-auto">
+                    <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 gap-4  justify-center ">
+                        <div class="p-4 md:w-1/4 sm:mb-0 mb-6 text-center bg-slate-200 rounded-lg">
+                            <div class="rounded-lg h-64 overflow-hidden">
+                                <img alt="content" class="object-cover object-center h-full w-full" src={ img1} />
+                            </div>
+                            <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Caeser Salad</h2>
+                            <p class="text-base leading-relaxed mt-2">Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.</p>
+                            <a class="btn btn-outline text-black border-0 border-b-4 text-1xl">Add to cart </a>
+                        </div>
+                        <div class="p-4 md:w-1/4 sm:mb-0 mb-6 text-center bg-slate-200 rounded-lg ">
+                            <div class="rounded-lg h-64 overflow-hidden">
+                                <img alt="content" class="object-cover object-center h-full w-full" src={ img1} />
+                            </div>
+                            <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Caeser Salad</h2>
+                            <p class="text-base leading-relaxed mt-2">Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.</p>
+                            <a class="btn btn-outline text-black border-0 border-b-4 text-1xl">Add to cart </a>
+                        </div>
+                        <div class="p-4 md:w-1/4 sm:mb-0 mb-6 text-center bg-slate-200 rounded-lg">
+                            <div class="rounded-lg h-64 overflow-hidden">
+                                <img alt="content" class="object-cover object-center h-full w-full" src={img1 }/>
+                            </div>
+                            <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Caeser Salad</h2>
+                            <p class="text-base leading-relaxed mt-2">Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.</p>
+                            <a class="btn btn-outline text-black border-0 border-b-4 text-1xl">Add to cart </a>
                         </div>
                     </div>
                 </div>
-                <div className=" card w-4/12 bg-base-300 shadow-xl mx-auto">
-                    <figure className="px-10 pt-10">
-                        <img src={img1} alt="Shoes" className="rounded-xl " />
-                    </figure>
-                    <div className="card-body items-center text-center">
-                        <h2 className="card-title">Caeser Salad</h2>
-                        <p>Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.</p>
-                        <div className="card-actions">
-                            <button className="btn btn-outline text-white border-0 border-b-4">Add to Cart</button>
-                        </div>
-                    </div>
-                </div>
-                <div className="flex card w-4/12 bg-base-300 shadow-xl mx-auto">
-                    <figure className="px-10 pt-10">
-                        <img src={img1} alt="Shoes" className="rounded-xl " />
-                    </figure>
-                    <div className="card-body items-center text-center ">
-                        <h2 className="card-title">Caeser Salad</h2>
-                        <p>Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.</p>
-                        <div className="card-actions">
-                            <button className="btn btn-outline text-white border-0 border-b-4">Add to Cart</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </section>
         </div>
     );
 };
